@@ -4,7 +4,6 @@
 int main() {
     char str;
     int age;
-    char str;
     scanf("%s",str);
     scanf("%d",&age);
     scanf("%s",str);
