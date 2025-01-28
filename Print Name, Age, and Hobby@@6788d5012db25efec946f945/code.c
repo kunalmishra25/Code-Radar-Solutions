@@ -2,11 +2,12 @@
 #include<string.h>
 
 int main() {
-    char str[50];
+    char name[50];
     int age;
-    scanf("%s",str);
+    char hobby[50];
+    scanf("%s",name);
     scanf("%d",&age);
-    scanf("%s",str);
+    scanf("%s",hobby);
     printf("Name: %s\n",str);
     printf("Age: %d\n",age);
     printf("Hobby: %s\n",str);
