@@ -2,7 +2,7 @@
 
 int main() {
     int a;
-    scanf("%d %d",&a,&b);
+    scanf("%d",&a);
     if(a%4==0){
         printf("Leaap Year");
     }else{
