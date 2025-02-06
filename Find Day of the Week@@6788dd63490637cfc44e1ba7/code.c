@@ -19,7 +19,7 @@ switch(day){
     break;
     case 7:printf("Sunday");
     break;
-    default:printf("Invalid day");
+    default:printf("Invalid ");
     return 0;
 }
 }
