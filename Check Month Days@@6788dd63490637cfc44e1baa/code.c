@@ -29,7 +29,7 @@ int main() {
         break;
         case 12:printf("30");
         break;
-        default:printf("Invalid month.")
+        default:printf("Invalid month.");
         
 
     }
