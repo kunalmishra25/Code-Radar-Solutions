@@ -6,7 +6,7 @@ int main(){
     int i,j,length;
     length = strlen(str);
     for (i = 0, j = length - 1; i < j; i++, j--) {
-        temp = str[i];
+        char temp = str[i];
         str[i] = str[j];
         str[j] = temp;
     }
