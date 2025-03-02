@@ -11,7 +11,7 @@ int main(){
         str[j] = temp;
     }
 
-    printf(" %s\n", str);
+    printf("%s\n", str);
 
     return 0;
 }
