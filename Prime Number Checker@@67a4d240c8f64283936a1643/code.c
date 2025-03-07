@@ -17,9 +17,9 @@ int main() {
     int num;
     scanf("%d", &num);
     if (prime(num)) {
-        printf(1"\n");
+        printf(1\n);
     } else {
-        printf(0"\n");
+        printf(0\n);
     }
 
     return 0;
