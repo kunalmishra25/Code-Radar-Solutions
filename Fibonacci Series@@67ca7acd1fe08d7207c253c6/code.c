@@ -1,8 +1,8 @@
 int fib(int n);
 int main(){
     int n;
-    scanf("%d\n",&n);
-    printf("Fibonacci number is %d",fib(n));
+    scanf("%d",&n);
+    printf("Fibonacci number is %d\n",fib(n));
 }
 int fib(int n){
     if (n==0){
