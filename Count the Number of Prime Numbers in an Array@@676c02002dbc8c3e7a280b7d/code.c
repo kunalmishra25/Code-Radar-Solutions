@@ -25,12 +25,12 @@ int main() {
     }
 
     if (count > 2) {
-        return 0;
+        printf("");
     } else {
         count++;
     }
-    printf("%d",count);
+    
     }  
-
+printf("%d",count);
     return 0;
 }
