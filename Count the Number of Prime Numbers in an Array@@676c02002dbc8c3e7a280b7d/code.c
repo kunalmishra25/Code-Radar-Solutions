@@ -1,36 +1,39 @@
 #include <stdio.h>
 
 int main() {
-    int n,count = 0;
+    int n;
     
     scanf("%d", &n);
-
     
     int arr[n];
-
+    
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
-
-   
+    
+    int primeCount = 0;
+    
     for (int i = 0; i < n; i++) {
-        if (n == 0 || n == 1) {
-        printf("");
-    }
-
-    for (i = 1; i <= n; i++) {
-        if (n % i == 0) {
-            count += 1;
+        int num = arr[i];
+        
+        if (num <= 1) {
+            continue;
+        }
+        
+        int isPrime = 1;
+        for (int j = 2; j * j <= num; j++) {
+            if (num % j == 0) {
+                isPrime = 0;
+                break;
+            }
+        }
+        
+        if (isPrime) {
+            primeCount++;
         }
     }
-
-    if (count > 2) {
-        
-    } else {
-        count++;
-    }
-    printf("%d",count);
-    }  
-
+    
+    printf("%d", primeCount);
+    
     return 0;
 }
