@@ -25,7 +25,7 @@ int main() {
     }
 
     if (count > 2) {
-        printf("");
+        
     } else {
         count++;
     }
