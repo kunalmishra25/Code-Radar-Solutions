@@ -25,6 +25,7 @@ int main() {
     } else {
         median = arr[n / 2];
     }
+    printf("%d",median);
 
     return 0;
 }
