@@ -9,12 +9,18 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    for (int i = 0; i < n - 1; i++) {
-        if(arr[i]>arr[i+1] && arr[i]<arr[i-1]){
-            printf("YES");
-        } else{
-            printf("NO");
-        }
+    bool increasing = true;
+    bool decreasing = true;
+
+    for (int i = 1; i < n; i++) {
+        if (arr[i] < arr[i - 1]) increasing = false;
+        if (arr[i] > arr[i - 1]) decreasing = false;
+    }
+
+    if (increasing || decreasing) {
+        printf("yes\n");
+    } else {
+        printf("no\n");
     }
 
     return 0;
