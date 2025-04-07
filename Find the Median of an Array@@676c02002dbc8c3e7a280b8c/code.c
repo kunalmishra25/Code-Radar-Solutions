@@ -10,7 +10,7 @@ int main(){
        if (n % 2 == 0) {
        int  median = (arr[n / 2 - 1] + arr[n / 2]) / 2.0;
     } else {
-        median = arr[n / 2];
+       int median = arr[n / 2];
     }
        
     }
