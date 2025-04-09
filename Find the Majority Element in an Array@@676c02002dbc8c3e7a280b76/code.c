@@ -22,7 +22,13 @@ int main(){
         }
         
     }
-    
-    printf("%d",max_element);
+    if(max_count<=n/2){
+        printf("-1");
+        
+    }else{
+        printf("%d",max_element);
+    }
+   
+   
     return 0;
 }
