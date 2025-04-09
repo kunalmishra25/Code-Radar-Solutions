@@ -21,7 +21,7 @@ int main(){
         max_count = count;
         max_element = arr[i];
     }
-    printf("%d",max_element)
+    printf("%d",max_element);
     return 0;
 }
 
