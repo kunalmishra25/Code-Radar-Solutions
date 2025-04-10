@@ -18,8 +18,9 @@ int main() {
         else if(arr[i]<min1 && arr[i]>min2){
             min2 = arr[i];
         }
+        printf("%d",min2);
     }
-    printf("%d",min2);
+    
 }
 
 
