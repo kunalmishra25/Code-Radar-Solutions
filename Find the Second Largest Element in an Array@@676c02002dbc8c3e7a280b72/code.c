@@ -20,11 +20,12 @@ int main(){
         else if(arr[i]<max && arr[i]>secondmax){
             secondmax = arr[i];
         }
-        else{
-            printf("-1");
-        }
     }
     
-    printf("%d",secondmax);
+    if(secondmax == INT_MIN){
+        printf("-1");
+    } else {
+        printf("%d",secondmax);
+    }
     return 0;
 }
