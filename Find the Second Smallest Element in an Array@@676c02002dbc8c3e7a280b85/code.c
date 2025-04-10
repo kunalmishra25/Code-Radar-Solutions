@@ -15,7 +15,7 @@ int main() {
             min2 = min1;
             min1 = arr[i];
         }
-        else if(arr[i]<min1 && arr[i]>min2){
+        else if(arr[i]!=min1 && arr[i]<min2){
             min2 = arr[i];
         }
         
