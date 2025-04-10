@@ -20,7 +20,11 @@ int main() {
         }
         
     }
-    printf("%d",min2);
+    if(min2==INT_MAX){
+        printf("-1");
+    }else{
+        printf("%d",min2);
+    }
     
 }
 
