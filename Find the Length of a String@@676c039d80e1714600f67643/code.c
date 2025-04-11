@@ -4,6 +4,7 @@
 int main() {
     char str[100];
    scanf("%s",&str);
-   printf("%lu",str(len(str)));
+   printf("%lu",strlen(str));
     return 0;
 }
+
