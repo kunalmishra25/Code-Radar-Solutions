@@ -1,10 +1,16 @@
-#include<stdio.h>
-#include<string.h>
-int main(){
-    char s1;
-    char s2;
-    scanf("%s",&s1);
-    scanf("%s",&s2);
-    strcat(s1,s2);
-    printf("%s",s1);
+
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char str1[100], str2[100];
+    fgets(str1, sizeof(str1), stdin);
+    str1[strcspn(str1, "\n")] = '\0';
+    fgets(str2, sizeof(str2), stdin);
+    str2[strcspn(str2, "\n")] = '\0';
+
+    strcat(str1, str2);
+
+    printf("%s\n", str1);
+    return 0;
 }
